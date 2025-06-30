@@ -15,3 +15,5 @@ six==1.17.0
 urllib3==2.4.0
 XlsxWriter==3.2.0
 zstandard==0.23.0
+Flask
+Flask-Cors

@@ -38,9 +38,9 @@ class GeneralGameState(ABC):
             "totalWin": 0,
             "wins": [],
         }
-        self.reset_seed()
         self.reset_book()
         self.reset_fs_spin()
+        self.reset_seed(self.sim)
 
     def create_symbol_map(self) -> None:
         """Construct all valid symbols from config file (from pay-table and special symbols)."""
